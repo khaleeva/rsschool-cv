@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>My CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class = "header">
+            <div class="header_photo">
+                <figure>
+                    <img src="img/photo.jpg" alt="my photo">
+                </figure>
+            </div>   
+            <div class="header_about">
+                <h1>Eugenia Khaleeva</h1>
+                <h2>Front-end Developer</h2>
+                <p>My goal is to take the position of junior front-end developer in a competitive and stimulating environment in which I can use my abilities and gain new skills and knowledge. 
+                    My personal qualities: discipline, attention to detail, efficiency, dedication, sociability, ability to work in a team.
+                </p>
+            </div>
+        </header>
+        <main class = "main">
+            <div class="main-left">
+                <section class="skill">
+                    <div class= "title"><h3>Skills</h3></div>
+                        <ul>
+                            <li>HTML
+                                <div class="skill-container">
+                                    <div class="skill-bar html-progress"></div>
+                                </div>
+                            </li>
+                            <li>CSS
+                                <div class="skill-container">
+                                    <div class="skill-bar css-progress"></div>
+                                </div>
+                            </li>
+                            <li>Scss
+                                <div class="skill-container">
+                                    <div class="skill-bar less-progress"></div>
+                                </div>
+                            </li>
+                            <li>JavaScript
+                                <div class="skill-container">
+                                    <div class="skill-bar js-progress"></div>
+                                </div>
+                            </li>
+                            <li>Git
+                                <div class="skill-container">
+                                    <div class="skill-bar git-progress"></div>
+                                </div>
+                            </li>
+                            <li>Figma
+                                <div class="skill-container">
+                                    <div class="skill-bar ps-progress"></div>
+                                </div>
+                            </li>
+                            <li>Gulp
+                                <div class="skill-container">
+                                    <div class="skill-bar ps-progress"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class = "lang">
+                   <div class="title"><h3 class="language">Languages</h3></div>
+                        <ul>
+                            <li><span>Russian</span> (native speaker)</li>
+                            <li><span>Belorussian</span>  (native speaker)</li>
+                            <li><span>English</span> (Pre-Intermidiate (A2)</li>
+                        </ul>
+
+                </section>
+                <section class="courses">
+                    <div class = "title"><h3>courses</h3></div>
+                    <div class="edu_container">
+                        <div class="name">2015 - Belhard Teaching Technology Center</div>
+                        <div class="prof">Software testing</div>
+                    </div> 
+                    <div class="edu_container">
+                        <div class="name">2015 - Education center “Leader”</div>
+                        <div class="prof">English Pre-Intermidiate (A2)</div>
+                    </div> 
+                     <div class="edu_container">
+                        <div class="name">2021 - STEP Computer Academy</div>
+                        <div class="prof">Front-end development</div>
+                    </div> 
+                    <div class="edu_container">
+                        <div class="name">2021 - RS School</div>
+                        <div class="prof">Front-end development (Stage 0)</div>
+                    </div> 
+                </section>
+            </div>
+            <div class="main-right">
+                <section class = "education">
+                    <div class = "title"><h3>Education</h3></div>
+                    <div class="name">2008 - 2013 - Mogilev State University of Foodstuff, “Faculty of Technology”</div>
+                    <div>specialty “Process engineer of food plant materials” (full-time department)</div>
+                    <div class = "prof">Process Engineer </div>
+                </section>
+                <section class="work">
+                    <div class = "title"><h3>Work Expirience</h3></div>
+                    <div class="work_container">
+                        <div class="name">2013 - 2013 - "Promzernoproekt" JSC Design and Technological Institute</div>
+                        <div class="prof">Design engineer</div>
+                    </div>
+                    <div class="work_container">
+                        <div class="name">2013 - 2015 - "Training center for leading workers and specialists in bakery"</div>
+                        <div class="prof">Instructor</div>
+                    </div>
+                    <div class="work_container">
+                        <div class="name">2016 - present - LLC Datahata (Data-center)</div>
+                        <div class="prof">Account Manager</div>
+                    </div>
+                </section>
+                <section class = "code">
+                    <div class = "title"><h3>Example of my code</h3></div>
+                   <a class = "link-codewars" href="https://www.codewars.com/kata/57a1fd2ce298a731b20006a4">https://www.codewars.com/kata/57a1fd2ce298a731b20006a4</a>
+                        <pre>
+                            <code class="javascript">
+                                function isPalindrome(x) {
+                                    let str = x.toLowerCase();
+                                    let reverseStr = str.split('').reverse().join('');
+                                    return str === reverseStr ? true : false;
+                                }
+                            </code>
+                        </pre>
+                </section>
+                
+            </div>
+            
+        </main>
+        <footer class="footer">
+                <ul class = "contact">
+                    <li class="contact-container contact-color"><a href = "https://github.com/khaleeva"><img src="img/github.svg" alt="github"></a></li>
+                    <li class="contact-container"><a href = "mailto:khaleeva20990@gmail.com"><img src="img/gmail.svg" alt="gmail"></a></li>
+                    <li class="contact-container"><a href = "https://wa.me/+375296181498"><img src="img/whatsapp.svg" alt="whatsapp"></a></li>
+                    <li class="contact-container"><a href = "https://linkedin.com/in/евгения-халеева-b66035157"><img src="img/linkedin.svg" alt="linkedin"></a></li>
+                </ul>
+            
+		        <div class = "logo">
+                    <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="logo"></a>
+                </div>
+                <div class="footer-time">2021 &#169;</div>
+        </footer>
+    </div>    
+       
+</body>
+</html>
